@@ -1,8 +1,8 @@
 import { Controller, Get } from "@nestjs/common";
 
-@Controller()
+@Controller("/")
 class AppController {
-  @Get()
+  @Get("/")
   getRootRoute() {
     return "root route reply";
   }
